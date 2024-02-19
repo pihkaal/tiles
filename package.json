@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "format": "prettier --write --cache '**/*.{json,md,js,cjs,mjs,ts,tsx}'",
-    "lint": "eslint src"
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "@types/react": "~18.2.45",
